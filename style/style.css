@@ -14,7 +14,8 @@ a{
 }
 
 #conteiner{
-	width: 100%;
+	max-width: 100%;
+	min-width: 800px;
 	}
 
 /*menu topo*/
@@ -44,34 +45,47 @@ ul{
 	width: 450px;
 	height: 30px;
 	margin: 10px auto 0 auto;
+
+}
+#lista-menu ul{
+	background: #fff;
+	border-radius: 8px;
 }
 
 
+
 #menu ul li{
+	display: block;
 	margin-top: 4px;
 	margin-left: 5px;
 	padding: 5px;
-	background-color: #fff;
-	border-radius: 3px;
+	border-left: 1px solid #808080;
 	float: left;
 	}
+
+#menu ul .primeiro{
+	border: none;
+}
+
+
 
 #logo-menu{
 	width: 120px;
 	float: left;
 	margin-top: 8px;
-	margin-left: 25%;
+	margin-left: 10px;
 }
 
 #menu img{
 	width: 120px;
 }
 
+
 #endereco{
 	width: 300px;
 	height: 30px;
 	color: white;
-	margin-top: -33px;
+	margin-top: -30px;
 	float: right;
 }
 
@@ -79,10 +93,21 @@ ul{
 	font-size: 0.8em;
 	font-weight: bold;
 	color: yellow;
+	text-transform: uppercase;
 }
 
 #endereco-loja1{
 	font-size: 0.7em;
+}
+
+
+body.loja1 #menu ul li a#loja1,
+body.conceito #menu ul li a#conceito,
+body.aldeota #menu ul li a#aldeota,
+body.motos #menu ul li a#motos,
+body.repasse #menu ul li a#repasse{
+	color: #808080;
+	cursor: text;
 }
 
 /* personalizar conteudo*/
