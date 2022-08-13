@@ -118,10 +118,117 @@ body.repasse #menu ul li a#repasse{
 
 .card{
 	border: 1px solid #000;
-	width: 98%;
+	width: 70%;
 	height: 120px;
 	margin: 0 auto;
 	margin-bottom: 9px;
 	border-radius: 9px;
 	z-index: 0;
+	box-shadow: 8px 0px 0px 3px rgba(255, 255, 0, 0.6);
 }
+
+.card:hover{
+	background: #E6E8FA;
+	cursor: pointer;
+}
+
+#nome-disponivel h4{
+	text-align: center;
+	padding: 20px;
+}
+
+/*estilizando card*/
+#img-card img{
+	border-radius: 9px 0 0 9px;
+	float: left;
+}
+
+
+#nome-card h4{
+	float: left;
+	margin-left: -62px;
+	margin-top: 50px;
+}
+
+#marca-card h6{
+	color: red;
+	float: left;
+	margin-left: 22px;
+	margin-top: 35px;
+}
+
+#ano-card{
+	font-weight: bold;
+	display: inline;
+	padding: 3px;
+	float: left;
+	border-radius: 7px;
+	background: yellow;
+	margin-top: 40px;
+	margin-left: 120px;
+}
+
+#cambio{
+	font-weight: bold;
+	display: inline;
+	padding-left: 25px;
+	float: left;
+	background: url(../img/marcha.png) no-repeat left center;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#km{
+	font-weight: bold;
+	display: inline;
+	padding-left: 25px;
+	float: left;
+	background: url(../img/painel.png) no-repeat left center;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#gas{
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;
+	padding-left: 25px;
+	float: left;
+	background: url(../img/gas.png) no-repeat left center;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+
+#valor-card{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;
+	padding: 10px 10px 10px 40px;
+	float: left;
+	background-color: yellow;
+	border-radius: 15px;
+	margin-top: 25px;
+	margin-left: 80px;
+}
+
+
+#sifrao-card{
+	position: absolute;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;
+	padding: 6px;
+	float: left;
+	color: #fff;
+	background-color: red;
+	border-radius: 30px;
+	margin-top: 33px;
+	margin-left: 82px;
+}
+
+
+
+
