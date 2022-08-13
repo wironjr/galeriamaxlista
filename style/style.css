@@ -67,6 +67,9 @@ ul{
 	border: none;
 }
 
+#menu ul li a:hover{
+	color: gainsboro;
+}
 
 
 #logo-menu{
@@ -127,7 +130,17 @@ body.repasse #menu ul li a#repasse{
 	box-shadow: 8px 0px 0px 3px rgba(255, 255, 0, 0.6);
 }
 
-.card:hover{
+.card-ultimo{
+	border: 1px solid #000;
+	width: 70%;
+	height: 120px;
+	margin: 0 auto 150px;
+	border-radius: 9px;
+	z-index: 0;
+	box-shadow: 8px 0px 0px 3px rgba(255, 255, 0, 0.6);
+}
+
+.card:hover, .card-ultimo:hover{
 	background: #E6E8FA;
 	cursor: pointer;
 }
@@ -165,7 +178,7 @@ body.repasse #menu ul li a#repasse{
 	border-radius: 7px;
 	background: yellow;
 	margin-top: 40px;
-	margin-left: 120px;
+	margin-left: 80px;
 }
 
 #cambio{
@@ -229,6 +242,26 @@ body.repasse #menu ul li a#repasse{
 	margin-left: 82px;
 }
 
+/*RODAPE*/
+#rodape{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: #fff;
+	font-size: 0.7em;
+	text-align: center;
+	margin-top: 60px;
+	background-color: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(5px);
+	box-shadow: 2px 2px 9px black;
+}
 
+#rodape a{
+	color: white;
+}
+
+#rodape a:hover{
+	color: gray;
+}
 
 
