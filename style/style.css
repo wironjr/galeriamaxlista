@@ -83,6 +83,9 @@ ul{
 	width: 120px;
 }
 
+#menu img:hover{
+	opacity: 0.7;
+}
 
 #endereco{
 	width: 300px;
@@ -150,6 +153,12 @@ ul{
 #img-card img{
 	border-radius: 9px 0 0 9px;
 	float: left;
+}
+#img-card img:hover{
+	width: 130;
+	overflow: hidden;
+	opacity: 0.8;
+	
 }
 
 
@@ -264,3 +273,10 @@ ul{
 }
 
 
+/*comando print para imprimir
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}*/

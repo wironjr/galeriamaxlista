@@ -125,7 +125,7 @@ http://stackoverflow.com/a/34696029/383904
 #s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
 #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
-#s5:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+#s5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
 /* More slides? Add here more rules */
 
 
