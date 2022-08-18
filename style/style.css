@@ -32,7 +32,14 @@ ul{
 	backdrop-filter: blur(5px);
 	box-shadow: 2px 2px 9px black;
 	position: fixed;
+
 	z-index: 1;
+}
+
+
+
+#menu ul li a:hover{
+	color: #000;
 }
 
 #menu ul{
@@ -47,7 +54,6 @@ ul{
 
 }
 #lista-menu ul{ /*menu*/
-
 	background: #fff;
 	border-radius: 8px;
 }
@@ -61,15 +67,18 @@ ul{
 	padding: 5px;
 	border-left: 1px solid #808080;
 	float: left;
+	transition: background 1s;
 	}
+
+	#menu ul li:hover{
+	background: #ccc;
+}
 
 #menu ul .primeiro{
 	border: none;
 }
 
-#menu ul li a:hover{
-	color: gainsboro;
-}
+
 
 
 #logo-menu{
@@ -280,3 +289,29 @@ ul{
         page-break-after: always;
     }
 }*/
+
+#subir{
+	clear: both;
+	position: relative;
+	bottom: 80px;
+	display: inline;
+	font-size: 0.8em;
+	padding: 8px;
+	background-color: black;
+	border-radius: 10px;
+	margin-left: 630px;
+	transition: background 1s;
+}
+
+#subir:hover{
+	background: #ccc;
+}
+
+#subir a{
+	color: white;
+}
+
+#subir a:hover{
+	color: #000;
+}
+
